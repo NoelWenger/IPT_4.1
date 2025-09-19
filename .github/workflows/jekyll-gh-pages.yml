@@ -22,7 +22,7 @@ jobs:
           node-version: '20'  # unbedingt eine Node-Version angeben
 
       - name: Install packages
-        run: npm ci  # schneller & sauberer als npm i
+        run: npm install  # schneller & sauberer als npm i
 
       - name: Build project
         run: npm run build
